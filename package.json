@@ -4,7 +4,8 @@
   "description": "Sample Automation",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "chrometest": "cypress run --browser chrome --headed"
   },
   "author": "Shefali Golvelker",
   "license": "ISC",
